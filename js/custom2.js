@@ -1,6 +1,6 @@
-let km = Number(prompt ('Введите число в км'));
-let ft = Number(prompt ('Введите число в футах'));
-let pss = '\n\nРабота программы завершена';
+var km = Number(prompt ('Введите число в км'));
+var ft = Number(prompt ('Введите число в футах'));
+var pss = '\n\nРабота программы завершена';
 
 
 if (!Number.isNaN(km) && !Number.isNaN(ft)) {
@@ -13,7 +13,7 @@ if (!Number.isNaN(km) && !Number.isNaN(ft)) {
     }
 
     if (ftMert < kmMert) {
-        alert('Первое в футах (' + ft + ') меньше числа в км (' + km + ')' + pss);
+        alert('Число в футах (' + ft + ') меньше числа в км (' + km + ')' + pss);
     }
 }
 else {

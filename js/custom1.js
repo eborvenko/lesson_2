@@ -1,6 +1,6 @@
-let x1 = Number(prompt ( 'Введите первое число'));
-let x2 = Number(prompt ('Введите второе число'));
-let ps = '\n\nРабота программы завершена';
+var x1 = Number(prompt ( 'Введите первое число'));
+var x2 = Number(prompt ('Введите второе число'));
+var ps = '\n\nРабота программы завершена';
 
 
 if (!Number.isNaN(x1) && !Number.isNaN(x2)) {
